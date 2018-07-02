@@ -1,0 +1,51 @@
+{
+    "name": "app-backend",
+    "version": "0.0.0",
+    "engines": {
+        "node": "8.11.1",
+        "npm": "6.1.0"
+    },
+    "private": true,
+    "scripts": {
+        "start": "nodemon ./bin/www",
+        "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend",
+        "test": "mocha"
+    },
+    "dependencies": {
+        "bcrypt-nodejs": "0.0.3",
+        "cookie-parser": "~1.4.3",
+        "cors": "^2.8.4",
+        "debug": "~2.6.9",
+        "express": "^4.16.3",
+        "express-session": "1.15.6",
+        "find-or-create": "1.1.0",
+        "helmet": "^3.12.1",
+        "http-errors": "~1.6.2",
+        "jade": "~1.11.0",
+        "jsonwebtoken": "^8.3.0",
+        "moment": "^2.22.2",
+        "mongoose": "^5.1.6",
+        "mongoose-dateonly": "^1.0.4",
+        "morgan": "^1.9.0",
+        "passport": "0.4.0",
+        "passport-facebook": "2.1.1",
+        "passport-google-oauth": "1.0.0",
+        "passport-jwt": "^4.0.0",
+        "prettier": "^1.13.6",
+        "qs": "^6.5.2",
+        "react-facebook-login": "^4.0.1",
+        "react-google-login": "3.2.1",
+        "serve-favicon": "^2.5.0",
+        "chai": "^4.1.2",
+        "cross-env": "^5.1.6",
+        "eslint": "^5.0.1",
+        "eslint-config-google": "^0.9.1",
+        "mocha": "^5.2.0",
+        "nodemon": "^1.17.5",
+        "ws": "3.3.2"
+    },
+    "main": "app.js",
+    "author": "",
+    "license": "ISC",
+    "description": ""
+}

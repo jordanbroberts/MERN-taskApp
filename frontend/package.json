@@ -1,0 +1,25 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^1.2.3",
+    "@material-ui/icons": "^1.1.0",
+    "axios": "^0.18.0",
+    "material-ui": "^0.20.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-facebook-login-component": "0.9.2",
+    "react-google-login-component": "0.9.3",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-test-renderer": "^16.4.1"
+  },
+  "scripts": {
+    "test": "react-scripts test --env=jsdom",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:3001"
+}

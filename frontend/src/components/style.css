@@ -1,0 +1,59 @@
+
+.underline{
+
+  text-decoration: underline;
+}
+.right {
+  width: 100px!important
+
+}
+
+.name {
+
+  width: 150px!important
+}
+
+.title
+{
+  font-size: 30px;
+}
+
+.username{
+  height: 70px;
+}
+
+.rightcont {
+
+  width: 300px!important;
+
+}
+
+.edit {
+  padding:15px;
+
+}
+
+.new {
+
+  margin: auto;
+  width: 300px;
+}
+
+.login {
+ text-align: center;
+  padding:15px;
+}
+
+.container{
+  max-width:1080px;
+
+}
+
+
+.complete {
+  border-radius: 30px;
+background-color:#18bd18;
+display:inline;
+font-size:15px;
+font-weight:bold;
+}
