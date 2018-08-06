@@ -4,7 +4,7 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import IndexItem from "./components/IndexItem";
 import EditItem from "./components/EditItem";
-import UnComplete from "./components/UnComplete";
+import Incomplete from "./components/Incomplete";
 import CompleteItem from "./components/Complete";
 import Overdue from "./components/Overdue";
 import Deadline from "./components/Deadline";
@@ -26,8 +26,8 @@ class App extends Component {
                         <Route exact path="/api/:id" component={EditItem} />
                         <Route
                             exact
-                            path="/uncomplete"
-                            component={UnComplete}
+                            path="/incomplete"
+                            component={Incomplete}
                         />
                         <Route
                             exact

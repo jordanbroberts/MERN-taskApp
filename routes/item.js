@@ -133,7 +133,7 @@ itemRouter.get(
 );
 
 itemRouter.get(
-    "/uncomplete/",
+    "/incomplete/",
     passport.authenticate("jwt", { session: false }),
     function(req, res, next) {
         var token = getToken(req.headers);

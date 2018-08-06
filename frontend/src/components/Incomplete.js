@@ -40,7 +40,7 @@ const styles = theme => ({
     }
 });
 
-class UnComplete extends Component {
+class Incomplete extends Component {
     constructor(props) {
         super(props);
         this.state = { item: "" };
@@ -51,7 +51,7 @@ class UnComplete extends Component {
             "jwtToken"
         );
         axios
-            .get("/api/items/uncomplete")
+            .get("/api/items/incomplete")
             .then(res => {
                 this.setState({ item: res.data });
             })
@@ -86,7 +86,7 @@ class UnComplete extends Component {
                 <ButtonAppBar />
 
                 <Typography variant="title" className={classes.title}>
-                    Uncomplete
+                    Incomplete
                 </Typography>
                 <hr />
                 <Paper className={classes.root}>
@@ -116,8 +116,8 @@ class UnComplete extends Component {
     }
 }
 
-UnComplete.propTypes = {
+Incomplete.propTypes = {
     classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(UnComplete);
+export default withStyles(styles)(Incomplete);

@@ -44,6 +44,10 @@ class EditItem extends Component {
         this.setState({ [e.target.name]: e.target.value });
     };
 
+    onCancel = e => {
+        this.props.history.push("/");
+    };
+
     onSubmit = e => {
         e.preventDefault();
         // get our form data out of state
@@ -117,6 +121,9 @@ class EditItem extends Component {
                             <br />
                             <Button onClick={this.onSubmit} color="primary">
                                 Save Changes
+                            </Button>
+                            <Button onClick={this.onCancel} color="primary">
+                                Cancel
                             </Button>
                         </div>
                     </Paper>

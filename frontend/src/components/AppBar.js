@@ -132,9 +132,9 @@ class ButtonAppBar extends React.Component {
                             className="button"
                             style={{ textDecoration: "none", color: "white" }}
                             component={Link}
-                            to="/uncomplete"
+                            to="/incomplete"
                         >
-                            Uncomplete
+                            Incomplete
                         </Button>
 
                         <AddItem />
