@@ -1,19 +1,17 @@
 # MERN-taskApp
-Depolyed to Heroku : mern-taskapp.herokuapp.com
 
 taskApp built using the MERN Stack. 
-Express backend, React frontend , MongoDB as our database - using RESTful API
+
+Using Express backend, React frontend and MongoDB as our database - using RESTful API.
 
 Built with Materal-UI framework.
 
 Allows the user to: Add tasks , Delete tasks , Edit existing tasks , Mark tasks as complete and incomplete.
 
-Filter tasks by:
-● Completed tasks
-● Tasks that must still be completed
-● Closest Deadline
-● Tasks that are overdue
+Tasks can also be filtered by: Completed tasks, Tasks that must still be completed, Closest Deadline, Overdue tasks.
 
 Also added Sign up and Login functonality using Passport.js authentication.
+
+It has been deployed to Heroku and a live version can be found here - https://mern-taskapp.herokuapp.com/
 
 
