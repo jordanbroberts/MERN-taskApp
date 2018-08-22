@@ -1,10 +1,10 @@
 # MERN-taskApp
 Depolyed to Heroku : mern-taskapp.herokuapp.com
 
-taskApp built using the MERN Stack. Express backend, React frontend
-Using MongoDB as our database.
+taskApp built using the MERN Stack. 
+Express backend, React frontend , MongoDB as our database - using RESTful API
 
-Built using Materal-UI.
+Built with Materal-UI framework.
 
 Allows the user to: Add tasks , Delete tasks , Edit existing tasks , Mark tasks as complete and incomplete.
 
