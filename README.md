@@ -12,6 +12,4 @@ Tasks can also be filtered by: Completed tasks, Tasks that must still be complet
 
 Also added Sign up and Login functonality using Passport.js authentication.
 
-It has been deployed to Heroku and a live version can be found here - https://mern-taskapp.herokuapp.com/
-
 
